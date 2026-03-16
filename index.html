@@ -1,25 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-    <meta name="description"
-      content="Whole-arm tactile sensing with low-cost textile and 3D-printed force-sensing skins for mobile manipulators.">
-    <meta name="keywords" content="tactile skin, whole-arm sensing, force sensing, textile sensor, additive manufacturing">
+  <meta name="description" content="Whole-arm tactile sensing with low-cost textile and additive-manufacturing force-sensing skins for mobile manipulators.">
+  <meta name="keywords" content="tactile skin, whole-arm sensing, force sensing, textile sensor, additive manufacturing, mobile manipulation">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tailorable Force-Sensing Skins for Manipulators Using Textile and Additive Manufacturing</title>
 
-
-
-
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-        rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="./static/images/favicon.svg">
 
@@ -29,64 +22,254 @@
   <script src="./static/js/index.js"></script>
 </head>
 
-
-
-<section class="hero">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Tailorable Force-Sensing Skins for Manipulators Using Textile and Additive Manufacturing</h1>
-          <p class="subtitle is-4">Anonymous authors</p>
-          <div class="content">
-            <h2 class="title is-4">Abstract</h2>
-            <p>
-              Robotic manipulation in human-centered and cluttered environments requires not only precise end-effector
-              control but also the ability to sense and regulate contact forces across the entire arm. Restricting tactile
-              sensing to the fingertips or gripper limits a robot's ability to detect, modulate, and safely respond to
-              contact occurring along its links during motion. Whole-arm tactile sensing enables both contact avoidance
-              and deliberate contact exploitation, yet practical tactile skins remain difficult to realize due to trade-offs
-              between fabrication cost, surface coverage, sensing density, usable force range, and long-term repeatability.
-              We present two complementary whole-arm tactile skin architectures that jointly address this trade-off:
-              a textile-based design optimized for low-force sensitivity and contact avoidance, and a 3D-printed conformal
-              shell design optimized for higher-force, durable contact embracing. Both designs use a resistive taxel matrix
-              and cost under $10 per link. We provide fabrication guidelines, tunable design parameters, and quantitative
-              characterization of force range, repeatability, and hysteresis. Experiments on a mobile manipulator demonstrate
-              both contact avoidance and controlled contact-embracing behaviors in real-world tasks. Additional details are
-              available at the project website: <a href="https://anonymous-8169.github.io/">https://anonymous-8169.github.io/</a>.
-            </p>
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Tailorable Force-Sensing Skins for Manipulators Using Textile and Additive Manufacturing</h1>
+            <p class="subtitle is-4">Anonymous Authors | IROS 2026</p>
+            <div class="is-flex is-justify-content-center is-flex-wrap-wrap" style="gap: 0.75rem; margin-top: 1rem;">
+              <a class="button is-dark" href="#" aria-label="Paper PDF">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>Paper</span>
+              </a>
+              <a class="button is-dark" href="#" aria-label="Video link">
+                <span class="icon"><i class="fas fa-video"></i></span>
+                <span>Video</span>
+              </a>
+              <a class="button is-dark" href="#" aria-label="Code repository">
+                <span class="icon"><i class="fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+            </div>
           </div>
-
-
-
-
-<footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <a class="icon-link" href="#" aria-label="Paper link">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="#" aria-label="Repository link">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This means you are free to borrow the source code of this website,
-            we just ask that you link back to this page in the footer.
-          </p>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </section>
 
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-multiline">
+        <div class="column is-4">
+          <article class="message is-info">
+            <div class="message-body has-text-centered">
+              <p class="heading">Per-Link Material Cost</p>
+              <p class="title is-4" style="margin-top: 0.25rem;">&lt; $10</p>
+            </div>
+          </article>
+        </div>
+        <div class="column is-4">
+          <article class="message is-success">
+            <div class="message-body has-text-centered">
+              <p class="heading">Complementary Designs</p>
+              <p class="title is-4" style="margin-top: 0.25rem;">Textile + AM</p>
+            </div>
+          </article>
+        </div>
+        <div class="column is-4">
+          <article class="message is-warning">
+            <div class="message-body has-text-centered">
+              <p class="heading">Validated On</p>
+              <p class="title is-4" style="margin-top: 0.25rem;">Spot Arm</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pt-0">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Abstract</h2>
+      <div class="content">
+        <p>
+          Robotic manipulation in cluttered, human-centered spaces requires more than fingertip sensing: robots must also detect and regulate contact along the arm.
+          We present two complementary whole-arm tactile skin architectures that are low-cost, practical to fabricate, and compatible with mobile manipulators.
+          The textile sensor is optimized for low-force sensitivity and contact avoidance, while the additive-manufacturing (AM) sensor is optimized for higher-force,
+          durable contact embracing. Both are based on resistive taxel matrices and provide analog force measurements. We contribute fabrication guidelines, tunable
+          design parameters, and quantitative characterization of operating force range, repeatability, and hysteresis. Real-world experiments on Spot show that tactile
+          feedback enables deliberate and safe whole-body interaction beyond simple collision avoidance.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pt-0">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Core Contributions</h2>
+      <div class="content">
+        <ul>
+          <li>Two complementary whole-arm force-sensing skin architectures: a textile design and an AM conformal-shell design.</li>
+          <li>Low-cost, high-coverage fabrication workflows with practical deployment on commercial robot links.</li>
+          <li>Quantitative characterization across operating force range, repeatability, and hysteresis.</li>
+          <li>Real-world task validation for both contact avoidance and contact embracing behaviors.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pt-0">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Sensor Architectures</h2>
+      <div class="columns">
+        <div class="column">
+          <div class="box" style="height: 100%;">
+            <h3 class="title is-5">Textile Sensor</h3>
+            <div class="content">
+              <ul>
+                <li>Flexible sleeve with conductive fabric rows and columns separated by Velostat.</li>
+                <li>Near-zero detection threshold in flat configuration and strong low-force sensitivity.</li>
+                <li>Best suited for contact avoidance and light-touch interaction.</li>
+                <li>Fabrication requires only simple textile tooling (for example, a fabric iron).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box" style="height: 100%;">
+            <h3 class="title is-5">AM Sensor</h3>
+            <div class="content">
+              <ul>
+                <li>3D-printed conformal inner and outer TPU shells with ridge-defined taxels and Velostat.</li>
+                <li>Normally open structure reduces cross-talk and improves localization robustness.</li>
+                <li>Best suited for contact embracing and higher-force, durable interaction.</li>
+                <li>Generated from link geometry for direct deployment on complex robot surfaces.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pt-0">
+    <div class="container is-max-desktop">
+      <div class="columns is-variable is-6">
+        <div class="column">
+          <figure class="image">
+            <img src="./static/images/sensor_pipeline.png" alt="Sensor design and fabrication pipeline overview">
+          </figure>
+        </div>
+        <div class="column">
+          <figure class="image">
+            <img src="./static/images/sensor_echelon.png" alt="Sensor architecture comparison illustration">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pt-0">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Modeling and Characterization</h2>
+      <div class="content">
+        <p>
+          Each taxel is measured through a voltage-divider circuit and mapped to force using a calibrated power-law resistance model with base resistance.
+          We evaluate: (1) operating force range from detection threshold to saturation, (2) multi-force repeatability using coefficient of variation across cycles,
+          and (3) hysteresis via loading-unloading discrepancy.
+        </p>
+      </div>
+      <div class="table-container">
+        <table class="table is-striped is-fullwidth">
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>Textile Sensor</th>
+              <th>AM Sensor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Minimum Detectable Force</td>
+              <td>Very low (near-zero in flat setup)</td>
+              <td>Higher (designed gap before contact closes)</td>
+            </tr>
+            <tr>
+              <td>Repeatability</td>
+              <td>Stable across repeated cycles</td>
+              <td>Comparable repeatability under matched calibration</td>
+            </tr>
+            <tr>
+              <td>Hysteresis</td>
+              <td>Lower</td>
+              <td>Higher due to shell viscoelastic effects</td>
+            </tr>
+            <tr>
+              <td>Cross-talk</td>
+              <td>More susceptible</td>
+              <td>Reduced by normally open architecture</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pt-0">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Real-World Use Cases</h2>
+      <div class="columns">
+        <div class="column">
+          <div class="notification is-light">
+            <h3 class="title is-5">Contact Avoidance (Textile)</h3>
+            <p>
+              The textile skin detects light, unexpected contact and drives contact-aware whole-body inverse kinematics
+              to move the contacted link away while preserving the primary end-effector goal.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="notification is-light">
+            <h3 class="title is-5">Contact Embracing (AM)</h3>
+            <p>
+              The AM skin supports controlled, higher-force interaction such as bracing on a door while balancing a tool,
+              enabling stable force regulation during task execution.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pt-0">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Limitations and Future Work</h2>
+      <div class="content">
+        <ul>
+          <li>Wiring complexity scales with taxel count and is challenging around rotary axes.</li>
+          <li>Improved compensation is needed for hysteresis and temperature-induced drift.</li>
+          <li>Future versions will explore embedded processing, simplified interconnects, and expanded material tuning.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="#" aria-label="Paper link">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <a class="icon-link" href="#" aria-label="Repository link">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              If you use this project page template, please credit the original source.
+            </p>
+            <p>
+              This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
