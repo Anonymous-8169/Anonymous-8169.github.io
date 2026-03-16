@@ -31,11 +31,11 @@
             <h1 class="title is-1 publication-title">Tailorable Force-Sensing Skins for Manipulators Using Textile and Additive Manufacturing</h1>
             <p class="subtitle is-4">Anonymous Authors | IROS 2026</p>
             <div class="is-flex is-justify-content-center is-flex-wrap-wrap" style="gap: 0.75rem; margin-top: 1rem;">
-              <a class="button is-dark" href="#" aria-label="Paper PDF">
+              <a class="button is-dark" href="https://drive.google.com/file/d/1kvV1EwLF0WutWN978gSYjkNuNQMgUmxb/view?usp=sharing" aria-label="Paper PDF">
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
                 <span>Paper</span>
               </a>
-              <a class="button is-dark" href="#" aria-label="Video link">
+              <a class="button is-dark" href="https://drive.google.com/file/d/1PfYytgt6vnbaLLVdw7U89PrNAivT5pkH/view?usp=sharing" aria-label="Video link">
                 <span class="icon"><i class="fas fa-video"></i></span>
                 <span>Video</span>
               </a>
@@ -64,7 +64,7 @@
         <div class="column is-4">
           <article class="message is-success">
             <div class="message-body has-text-centered">
-              <p class="heading">Complementary Designs</p>
+              <p class="heading">Two Complementary Designs</p>
               <p class="title is-4" style="margin-top: 0.25rem;">Textile + AM</p>
             </div>
           </article>
@@ -72,8 +72,8 @@
         <div class="column is-4">
           <article class="message is-warning">
             <div class="message-body has-text-centered">
-              <p class="heading">Validated On</p>
-              <p class="title is-4" style="margin-top: 0.25rem;">Spot Arm</p>
+              <p class="heading">Demonstrated Tasks</p>
+              <p class="title is-5" style="margin-top: 0.25rem;">Contact Avoidance + Embracing</p>
             </div>
           </article>
         </div>
@@ -83,20 +83,28 @@
 
   <section class="section pt-0">
     <div class="container is-max-desktop">
-      <h2 class="title is-3">Abstract</h2>
-      <div class="content">
-        <p>
-          Robotic manipulation in cluttered, human-centered spaces requires more than fingertip sensing: robots must also detect and regulate contact along the arm.
-          We present two complementary whole-arm tactile skin architectures that are low-cost, practical to fabricate, and compatible with mobile manipulators.
-          The textile sensor is optimized for low-force sensitivity and contact avoidance, while the additive-manufacturing (AM) sensor is optimized for higher-force,
-          durable contact embracing. Both are based on resistive taxel matrices and provide analog force measurements. We contribute fabrication guidelines, tunable
-          design parameters, and quantitative characterization of operating force range, repeatability, and hysteresis. Real-world experiments on Spot show that tactile
-          feedback enables deliberate and safe whole-body interaction beyond simple collision avoidance.
-        </p>
+      <div class="columns is-variable is-6 is-vcentered">
+        <div class="column is-7">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content">
+            <p>
+              Robotic manipulation in human-centered and cluttered environments requires not only precise end-effector control but also the ability to sense and regulate contact forces across the entire arm. Restricting tactile sensing to the fingertips or gripper limits a robot's ability to detect, modulate, and safely respond to contact occurring along its links during motion. Whole-arm tactile sensing enables both contact avoidance and deliberate contact exploitation, yet practical tactile skins remain difficult to realize due to trade-offs between fabrication cost, surface coverage, sensing density, usable force range, and long-term repeatability.
+
+              We present two complementary whole-arm tactile skin architectures that jointly address this trade-off: a textile-based design optimized for low-force sensitivity and contact avoidance, and a 3D-printed conformal shell design optimized for higher-force, durable contact embracing. Both designs use a resistive taxel matrix and cost under $10 per link. We provide fabrication guidelines, tunable design parameters, and quantitative characterization of force range, repeatability, and hysteresis. Experiments on a mobile manipulator demonstrate both contact avoidance and controlled contact-embracing behaviors in real-world tasks.
+            </p>
+          </div>
+        </div>
+        <div class="column is-5">
+          <figure class="image">
+            <a href="./static/images/Teaser_both_v6.pdf" target="_blank" rel="noopener" aria-label="Open teaser PDF">
+              <img src="./static/images/figures/teaser_both_v6.png" alt="Teaser figure showing textile and AM tactile skins" style="width: 100%; height: auto;">
+            </a>
+          </figure>
+        </div>
       </div>
     </div>
   </section>
-
+<!-- 
   <section class="section pt-0">
     <div class="container is-max-desktop">
       <h2 class="title is-3">Core Contributions</h2>
@@ -109,7 +117,7 @@
         </ul>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="section pt-0">
     <div class="container is-max-desktop">
@@ -142,23 +150,11 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="section pt-0">
-    <div class="container is-max-desktop">
-      <div class="columns is-variable is-6">
-        <div class="column">
-          <figure class="image">
-            <img src="./static/images/sensor_pipeline.png" alt="Sensor design and fabrication pipeline overview">
-          </figure>
-        </div>
-        <div class="column">
-          <figure class="image">
-            <img src="./static/images/sensor_echelon.png" alt="Sensor architecture comparison illustration">
-          </figure>
-        </div>
-      </div>
+      <figure class="image mt-4">
+        <a href="./static/images/Sensor_Overall_Both_v4.pdf" target="_blank" rel="noopener" aria-label="Open sensor overview PDF">
+          <img src="./static/images/figures/sensor_overall_both_v4.png" alt="Overview of textile and AM sensor designs">
+        </a>
+      </figure>
     </div>
   </section>
 
@@ -205,6 +201,11 @@
           </tbody>
         </table>
       </div>
+      <figure class="image mt-4">
+        <a href="./static/images/Results_V6.pdf" target="_blank" rel="noopener" aria-label="Open results PDF">
+          <img src="./static/images/figures/results_v6.png" alt="Characterization and deployment results figure">
+        </a>
+      </figure>
     </div>
   </section>
 
@@ -229,6 +230,22 @@
               enabling stable force regulation during task execution.
             </p>
           </div>
+        </div>
+      </div>
+      <div class="columns mt-4">
+        <div class="column">
+          <figure class="image">
+            <a href="./static/images/Contact_Avoidance_V1.pdf" target="_blank" rel="noopener" aria-label="Open contact avoidance PDF">
+              <img src="./static/images/figures/contact_avoidance_v1.png" alt="Contact avoidance task figure">
+            </a>
+          </figure>
+        </div>
+        <div class="column">
+          <figure class="image">
+            <a href="./static/images/FIg_Embrace_V4.pdf" target="_blank" rel="noopener" aria-label="Open contact embracing PDF">
+              <img src="./static/images/figures/fig_embrace_v4.png" alt="Contact embracing task figure">
+            </a>
+          </figure>
         </div>
       </div>
     </div>
