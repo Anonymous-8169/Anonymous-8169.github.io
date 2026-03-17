@@ -158,7 +158,62 @@
     </div>
   </section>
 
+
   <section class="section pt-0">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Real-World Use Cases</h2>
+      <div class="columns">
+        <div class="column">
+          <div class="notification is-light">
+            <h3 class="title is-5">Contact Avoidance (Textile)</h3>
+            <p>
+              The textile skin detects light, unexpected contact and drives contact-aware whole-body inverse kinematics
+              to move the contacted link away while preserving the primary end-effector goal.
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="notification is-light">
+            <h3 class="title is-5">Contact Embracing (AM)</h3>
+            <p>
+              The AM skin supports controlled, higher-force interaction such as bracing on a door while balancing a tool,
+              enabling stable force regulation during task execution.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="columns mt-4">
+        <div class="column">
+          <figure class="image">
+            <a href="./static/images/Contact_Avoidance_V1.pdf" target="_blank" rel="noopener" aria-label="Open contact avoidance PDF">
+              <img src="./static/images/figures/contact_avoidance_v1.png" alt="Contact avoidance task figure">
+            </a>
+          </figure>
+        </div>
+        <div class="column">
+          <figure class="image">
+            <a href="./static/images/FIg_Embrace_V4.pdf" target="_blank" rel="noopener" aria-label="Open contact embracing PDF">
+              <img src="./static/images/figures/fig_embrace_v4.png" alt="Contact embracing task figure">
+            </a>
+          </figure>
+        </div>
+      </div>
+      <div class="columns mt-4">
+        <div class="column">
+          <video controls muted loop playsinline preload="metadata" style="width: 100%; max-width: 320px; aspect-ratio: 9 / 16; height: auto; object-fit: cover; border-radius: 10px; display: block; margin: 0 auto;">
+            <source src="./static/videos/Fabric_Avoid_compressed.webm" type="video/webm">
+          </video>
+        </div>
+        <div class="column">
+          <video controls muted loop playsinline preload="metadata" style="width: 100%; max-width: 320px; aspect-ratio: 9 / 16; height: auto; object-fit: cover; border-radius: 10px; display: block; margin: 0 auto;">
+            <source src="./static/videos/TPU_Open_Door_compressed.webm" type="video/webm">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="section pt-0">
     <div class="container is-max-desktop">
       <h2 class="title is-3">Modeling and Characterization</h2>
       <div class="content">
@@ -209,71 +264,66 @@
     </div>
   </section>
 
+
   <section class="section pt-0">
     <div class="container is-max-desktop">
-      <h2 class="title is-3">Real-World Use Cases</h2>
-      <div class="columns">
-        <div class="column">
-          <div class="notification is-light">
-            <h3 class="title is-5">Contact Avoidance (Textile)</h3>
-            <p>
-              The textile skin detects light, unexpected contact and drives contact-aware whole-body inverse kinematics
-              to move the contacted link away while preserving the primary end-effector goal.
-            </p>
+      <h2 class="title is-3">Additional Video Gallery</h2>
+      <div class="columns is-multiline">
+        <div class="column is-4-desktop is-6-tablet">
+          <div class="box">
+            <h3 class="title is-6">Fabric Door</h3>
+            <video controls muted loop playsinline preload="metadata" style="width: 100%; aspect-ratio: 9 / 16; height: auto; object-fit: cover; border-radius: 10px; background: #000;">
+              <source src="./static/videos/Fabric_Door_compressed.webm" type="video/webm">
+            </video>
           </div>
         </div>
-        <div class="column">
-          <div class="notification is-light">
-            <h3 class="title is-5">Contact Embracing (AM)</h3>
-            <p>
-              The AM skin supports controlled, higher-force interaction such as bracing on a door while balancing a tool,
-              enabling stable force regulation during task execution.
-            </p>
+        <div class="column is-4-desktop is-6-tablet">
+          <div class="box">
+            <h3 class="title is-6">Fabric Human Interaction</h3>
+            <video controls muted loop playsinline preload="metadata" style="width: 100%; aspect-ratio: 9 / 16; height: auto; object-fit: cover; border-radius: 10px; background: #000;">
+              <source src="./static/videos/Fabric_Human_compressed.webm" type="video/webm">
+            </video>
           </div>
         </div>
-      </div>
-      <div class="columns mt-4">
-        <div class="column">
-          <figure class="image">
-            <a href="./static/images/Contact_Avoidance_V1.pdf" target="_blank" rel="noopener" aria-label="Open contact avoidance PDF">
-              <img src="./static/images/figures/contact_avoidance_v1.png" alt="Contact avoidance task figure">
-            </a>
-          </figure>
+        <div class="column is-4-desktop is-6-tablet">
+          <div class="box">
+            <h3 class="title is-6">Fabric Table</h3>
+            <video controls muted loop playsinline preload="metadata" style="width: 100%; aspect-ratio: 9 / 16; height: auto; object-fit: cover; border-radius: 10px; background: #000;">
+              <source src="./static/videos/Fabric_Table_compressed.webm" type="video/webm">
+            </video>
+          </div>
         </div>
-        <div class="column">
-          <figure class="image">
-            <a href="./static/images/FIg_Embrace_V4.pdf" target="_blank" rel="noopener" aria-label="Open contact embracing PDF">
-              <img src="./static/images/figures/fig_embrace_v4.png" alt="Contact embracing task figure">
-            </a>
-          </figure>
+        <div class="column is-4-desktop is-6-tablet">
+          <div class="box">
+            <h3 class="title is-6">TPU Gripper</h3>
+            <video controls muted loop playsinline preload="metadata" style="width: 100%; aspect-ratio: 9 / 16; height: auto; object-fit: cover; border-radius: 10px; background: #000;">
+              <source src="./static/videos/TPU_Gripper_compressed.webm" type="video/webm">
+            </video>
+          </div>
+        </div>
+        <div class="column is-4-desktop is-6-tablet">
+          <div class="box">
+            <h3 class="title is-6">TPU Table</h3>
+            <video controls muted loop playsinline preload="metadata" style="width: 100%; aspect-ratio: 9 / 16; height: auto; object-fit: cover; border-radius: 10px; background: #000;">
+              <source src="./static/videos/TPU_Table_compressed.webm" type="video/webm">
+            </video>
+          </div>
+        </div>
+        <div class="column is-4-desktop is-6-tablet">
+          <div class="box">
+            <h3 class="title is-6">Fabric Avoid (Alt Encode)</h3>
+            <video controls muted loop playsinline preload="metadata" style="width: 100%; aspect-ratio: 9 / 16; height: auto; object-fit: cover; border-radius: 10px; background: #000;">
+              <source src="./static/videos/Fabric_Avoid_compressed_compressed.webm" type="video/webm">
+            </video>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section pt-0">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3">Limitations and Future Work</h2>
-      <div class="content">
-        <ul>
-          <li>Wiring complexity scales with taxel count and is challenging around rotary axes.</li>
-          <li>Improved compensation is needed for hysteresis and temperature-induced drift.</li>
-          <li>Future versions will explore embedded processing, simplified interconnects, and expanded material tuning.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
 
   <footer class="footer">
     <div class="container">
-      <div class="content has-text-centered">
-        <a class="icon-link" href="#" aria-label="Paper link">
-          <i class="fas fa-file-pdf"></i>
-        </a>
-        <a class="icon-link" href="#" aria-label="Repository link">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
       <div class="columns is-centered">
         <div class="column is-8">
           <div class="content">
